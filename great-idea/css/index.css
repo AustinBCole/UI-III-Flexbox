@@ -99,10 +99,16 @@ h1 {
 	font-size: 80px;
 	text-align: center;
 }
+h2 {
+	font-size: 26px;
+}
 nav {
 	flex-flow: row nowrap;
 	justify-content: space-around;
 	text-align: center;
+}
+.cards-section {
+	margin-top: 20px;
 }
 .contact {
 	width: 150px;
@@ -118,7 +124,10 @@ nav {
 	flex-flow: row wrap;
 	border-bottom: solid black 1px;
 	width: 900px;
-
+}
+.content-header {
+	padding-bottom: 25px;
+	border-bottom: solid black 1px;
 }
 .content-section-top {
 	width: 450px;
