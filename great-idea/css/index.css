@@ -63,4 +63,98 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+a {
+	/* top, right, bottom, left */
+	margin: 0px 20px 20px 30px;
+	text-decoration: none;
+	color: lightgray;
+}
+a:link {
+	text-align: center;
+	line-height: 32px;
+}
+body {
+	margin: 0 auto;
+	width: 1000px;
+	display: flex;
+	flex-flow: column nowrap;
+	align-content: center;
+}
+button {
+	width: 150px;
+	font-size: 20px;
+	/* top, right, bottom, left */
+	margin: 0px 0px 0px 67px;
+	background: white;
+	border-color: black;
+}
+footer {
+	width: 900px;
+	text-align: center;
+	font-size: 14px;
+	margin-bottom: 50px;
+}
+h1 {
+	font-size: 80px;
+	text-align: center;
+}
+nav {
+	flex-flow: row nowrap;
+	justify-content: space-around;
+	text-align: center;
+}
+.contact {
+	width: 150px;
+	display: flex;
+	flex-flow: column nowrap;
+	margin-top: 30px;
+}
+.contact p {
+	margin-bottom: 15px;
+}
+.content {
+	display: flex;
+	flex-flow: row wrap;
+	border-bottom: solid black 1px;
+	width: 900px;
+
+}
+.content-section-top {
+	width: 450px;
+	padding-bottom: 35px;
+	padding-top: 30px;
+}
+.content-section-bottom {
+	width: 300px;
+	padding-bottom: 30px;
+	padding-top: 35px;
+	padding-right: 20px;
+	margin-bottom: 10px;
+}
+.logo {
+	margin: 0px 0px 0px 42px;
+	height: 32px;
+}
+.navbar {
+	display: flex;
+	flex-flow: row;
+	margin: 35px 0px 0px 0px;
+}
+.slogan {
+	display: flex;
+	align-content: center;
+	justify-content: space-around;
+	flex-flow: row wrap;
+	margin: 67px 0px 0px 0px;
+	width: 900px;
+	border-bottom: solid black 1px;
+	padding-bottom: 70px;
+}
+.slogan-text {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	width: 300px;
+	align-content: center;
+}
