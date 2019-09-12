@@ -109,6 +109,8 @@ nav {
 }
 .cards-section {
 	margin-top: 20px;
+	margin-left: 25px;
+	width: 800px;
 }
 .contact {
 	width: 150px;
@@ -128,6 +130,8 @@ nav {
 .content-header {
 	padding-bottom: 25px;
 	border-bottom: solid black 1px;
+	width: 800px;
+	margin-left: 25px;
 }
 .content-section-top {
 	width: 450px;
@@ -153,6 +157,8 @@ nav {
 .services-header-img {
 	margin-bottom: 30px;
 	margin-top: 30px;
+	width:800px;
+	margin-left: 25px;
 }
 .slogan {
 	display: flex;
