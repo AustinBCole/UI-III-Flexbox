@@ -107,10 +107,16 @@ nav {
 	justify-content: space-around;
 	text-align: center;
 }
+.card {
+	width: 350px;
+}
 .cards-section {
 	margin-top: 20px;
 	margin-left: 25px;
 	width: 800px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
 }
 .contact {
 	width: 150px;
